@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AspNetCoreTodo.Services
 {
-    interface ITodoItemService
+    public interface ITodoItemService
     {
         Task<TodoItem[]> GetIncompleteItemsAsync();
     }
